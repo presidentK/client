@@ -1,0 +1,24 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "collect car info,and list them",
+  "main": "src/main/main.js",
+  "scripts": {
+    "rebuild": "./node_modules/.bin/electron-rebuild -f -w sqlite3"
+  },
+  "keywords": [
+    "electron",
+    "exe",
+    "wc"
+  ],
+  "author": "pf",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "electron": "^2.0.6",
+    "electron-rebuild": "^1.8.2",
+    "node-gyp": "^3.6.0"
+  }
+}
